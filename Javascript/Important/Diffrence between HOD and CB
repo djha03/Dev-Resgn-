@@ -1,0 +1,13 @@
+The function which thake another function as a parameter is called  higher order function. In this example
+  WHILE
+  The function which passed as a parameter to  another function is called  callback function.
+
+  EG-
+
+  function cb(){
+    console.log("Callback function");
+  }
+
+  function higherOrderFunction(cb){
+    cb();
+  }

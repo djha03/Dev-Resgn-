@@ -30,6 +30,17 @@ console.log(calc.add(5, 10));  // Error: calc.add is not a function
 
 
 
+var divakar={
+  "name": "divakar",
+  "age": 25,
+  "city": "bangalore",
+ }
+//print all keys 
+ console.log(Object.keys(divakar));
+
+ //print all the values
+ console.log(Object.values(divakar));
+
 
 
 

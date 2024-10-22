@@ -1,0 +1,19 @@
+// 1) var has functional scope while let and const have block scope.
+// 2)lexical scope - current scope of a function as well acces of parent scope.
+
+// 3)Reversing a String
+// You can use the following steps to reverse a string:
+
+// Convert the string to an array using split().
+// Reverse the array using reverse().
+// Join the reversed array back into a string using join().
+// Example Code
+// Here’s how you can reverse the string 'Divakar':
+
+// javascript
+// Copy code
+// var dj = 'Divakar';
+
+// // Reverse the string
+// var res = dj.split('').reverse().join('');
+// console.log(res); // Output: 'rakaviD'
